@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Robert Bovee",
+        "stack": "Frontend",
+        "phone": "801-707-0593",
+        "email": "rjbovee@test.com"
+    },
+    {
+        "id": 2,
+        "name": "Brooke Barnes",
+        "stack": "Frontend",
+        "phone": "661-233-8902",
+        "email": "brookeb@test.com"
+    },
+    {
+        "id": 3,
+        "name": "Quinn Bee",
+        "stack": "Frontend",
+        "phone": "801-112-0893",
+        "email": "quinnb@test.com"
+    },
+    {
+        "id": 4,
+        "name": "Rupert Jackos",
+        "stack": "Frontend",
+        "phone": "801-445-9090",
+        "email": "wildjack@test.com"
+    },
+    {
+        "id": 5,
+        "name": "Billy Bob",
+        "stack": "Backend",
+        "phone": "801-110-3338",
+        "email": "bobo@test.com"
+    },
+    {
+        "id": 6,
+        "name": "Rosa Delonger",
+        "stack": "Backend",
+        "phone": "787-999-0445",
+        "email": "RosaD@test.com"
+    },
+    {
+        "id": 7,
+        "name": "Lauren Killpactrick",
+        "stack": "Backend",
+        "phone": "201-663-8940",
+        "email": "killpat@test.com"
+    },
+    {
+        "id": 8,
+        "name": "Brickston Mongonster",
+        "stack": "Full-Stack",
+        "phone": "554-954-3453",
+        "email": "brickmonster@test.com"
+    },
+    {
+        "id": 9,
+        "name:" "Jenni Gump",
+        "stack": "Full-Stack",
+        "phone": "234-090-3667",
+        "email": "forest4ever@test.com"
+    },
+    {
+        "id": 10,
+        "name": "Copper Hicks",
+        "stack": "Full-Stack",
+        "phone": "101-439-3345",
+        "email": "Hicks@test.com"
+    },
+]
