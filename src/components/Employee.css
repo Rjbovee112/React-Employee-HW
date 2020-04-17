@@ -1,3 +1,13 @@
-table, tr, th {
-    border:2px soild grey
+.table{
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 60%;
+    padding: 15px; 
+    border: 2px solid blue; 
+}
+
+.list-group{
+    display: flex;
+    flex-direction: column;
 }

@@ -57,7 +57,7 @@
     },
     {
         "id": 9,
-        "name:" "Jenni Gump",
+        "name": "Jenni Gump",
         "stack": "Full-Stack",
         "phone": "234-090-3667",
         "email": "forest4ever@test.com"
@@ -68,5 +68,5 @@
         "stack": "Full-Stack",
         "phone": "101-439-3345",
         "email": "Hicks@test.com"
-    },
+    }
 ]

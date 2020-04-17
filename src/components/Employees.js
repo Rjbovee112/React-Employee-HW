@@ -3,52 +3,29 @@ import './Employee.css';
 
 
 class Employee extends React.Component {
-    state = {
-        isLoading: true,
-        employees: [],
-    }
-
-    componentDidMount() {
-        //getting the employee from employees.json and adding it to our state
-        fetch('./employees.json')
-            .then(response => response.json())
-            .then((employees) => {
-                this.setState({
-                    isLoading: false,
-                    employees
-                })
-
-            }).catch((error) => {
-                this.setState({ isLoading: false, error });
-            })
-    }
-
 
     render() {
-        const { isLoading, employees } = this.state;
+        const { employees } = this.props;
 
-        if (isLoading) {
-            return <p>Loading...</p>;
-        }
 
         return (
-            <table>
+            <table className="table">
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Stack</th>
-                        <th>Phone</th>
-                        <th>Email</th>
+                        <th className="table">Name</th>
+                        <th className="table">Stack</th>
+                        <th className="table">Phone</th>
+                        <th className="table">Email</th>
                     </tr>
                 </thead>
                 <tbody>
                     {employees.map((employee) => (
                         <React.Fragment key={employee.id}>
-                            <tr>
-                                <td>{employee.name}</td>
-                                <td>{employee.stack}</td>
-                                <td>{employee.phone}</td>
-                                <td>{employee.email}</td>
+                            <tr className="table">
+                                <td className="table">{employee.name}</td>
+                                <td className="table">{employee.stack}</td>
+                                <td className="table">{employee.phone}</td>
+                                <td className="table">{employee.email}</td>
                             </tr>
                         </React.Fragment>
                     ))}
