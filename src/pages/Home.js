@@ -31,7 +31,7 @@ class Home extends React.Component {
         }
         else {
             this.setState({
-                employees: this.state.employees.filter(function (employee) {
+                employees: this.state.allEmployees.filter(function (employee) {
                     if (employee.stack === filterValue) {
                         return true;
                     }
@@ -40,6 +40,25 @@ class Home extends React.Component {
                 })
             })
         }
+    }
+
+    sortEmployees = () => {
+        this.setState({
+            employees: this.state.employees.sort(function (employee1, employee2) {
+                var employee1LastName = employee1.name.split(' ')[1];
+                var employee2LastName = employee2.name.split(' ')[1];
+
+                if (employee1LastName > employee2LastName) {
+                    return 1;
+                }
+
+                if (employee2LastName > employee1LastName) {
+                    return -1;
+                }
+
+                return 0;
+            })
+        })
     }
 
 
@@ -56,7 +75,7 @@ class Home extends React.Component {
                         <h1>Current Stack Employees</h1>
                         <div className="btnDiv">
 
-                            <button className="sort-btn btn " type="submit"> Sort by Last Name</button>
+                            <button className="sort-btn btn " type="submit" onClick={this.sortEmployees}> Sort by Last Name</button>
 
                             <label>FILTER BY</label>
                             <select onChange={this.filterEmployees}>
