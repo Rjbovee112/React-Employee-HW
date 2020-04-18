@@ -61,9 +61,9 @@ class Home extends React.Component {
                             <label>Filter by</label>
                             <select onChange={this.filterEmployees}>
                                 <option value="All" />
-                                <option value="Full-Stack">Full Stack</option>
-                                <option value="Frontend">Frontend</option>
-                                <option value="Backend">Backend</option>
+                                <option value="Full-Stack">Full-Stack</option>
+                                <option value="Front-End">Front-End</option>
+                                <option value="Back-End">Back-End</option>
                             </select>
 
                         </div>
