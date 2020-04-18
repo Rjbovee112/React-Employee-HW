@@ -11,11 +11,11 @@ class Employee extends React.Component {
         return (
             <table className="table">
                 <thead>
-                    <tr>
-                        <th className="table">Name</th>
-                        <th className="table">Stack</th>
-                        <th className="table">Phone</th>
-                        <th className="table">Email</th>
+                    <tr className="table2">
+                        <th className="table1">Name</th>
+                        <th className="table1">Stack</th>
+                        <th className="table1">Phone</th>
+                        <th className="table1">Email</th>
                     </tr>
                 </thead>
                 <tbody>

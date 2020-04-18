@@ -58,7 +58,7 @@ class Home extends React.Component {
 
                             <button className="sort-btn btn " type="submit"> Sort by Last Name</button>
 
-                            <label>Filter by</label>
+                            <label>FILTER BY</label>
                             <select onChange={this.filterEmployees}>
                                 <option value="All" />
                                 <option value="Full-Stack">Full-Stack</option>
