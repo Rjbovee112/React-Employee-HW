@@ -1,58 +1,43 @@
+* PROJECT TITLE-EMPLOYEE MANAGEMENT SYSTEM
 
+This project was designed to manage employees and filter them based on their last name, if the are a Front/Back or Full-Stack developer.  The user has quick access to their employee information.  They are also able to see the employees full name, email and phone number so that they can contact said employee.
 
-Project Title
-One Paragraph of project description goes here
+** GETTING STARTED
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The user can search all the employees that work for them but last name, Front/Back and Full-Stack.  The sort by last name button is a single click button that will configure all the employees by last name.  
 
-Prerequisites
+Sorting by Front/Back and Full will require the user to use the drop-down function to the right of “filter by”.  Those three options will then appear, and the user will then choose which option they would like to select.
+
+*** PREREQUISITES
+
 What things you need to install the software and how to install them
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+-This project was required to use React.js and Node.js to create the employee management system.
+-I was able to install React.js and then Node.js.
 
-Say what the step will be
+**** DEPLOYMENT
 
-Give the example
-And repeat
+This project is deployed to both Github and Heroku at the following links,
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+	-https://github.com/Rjbovee112/React-Employee-HW
+	-https://protected-caverns-46510.herokuapp.com/
 
-Running the tests
-Explain how to run the automated tests for this system
+****** BUILT WITH
 
-Break down into end to end tests
-Explain what these tests test and why
+•	React.Js - The web framework used
+•	Node.js 
+•	HTML
+•	CSS
+•	JavaScript
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+******* AUTHORS
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+•	Robert Bovee -with initial setup requirements from U of U 
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+******* ACKNOWLEDGMENTS
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+•	This was my first React.js project, and it took me a good amount of time to under and get used to how React.js works.
+•	I was able to understand how to move everything into components and how the systems flow.
+•	I had trouble writing all the javaScript code to make everything function, but with the help of my tutor we where able to get everything working.
+•	Next time I would like to adjust the CSS styling to make it look a lot “cooler”.
 
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
